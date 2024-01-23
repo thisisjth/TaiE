@@ -1,2 +1,4 @@
 # TaiE
-The code for paper "TaiE: Function Identification for Monolithic Firmware".
+
+**The code is under reorganization, and will be uploaded as soon as possible.**
+
