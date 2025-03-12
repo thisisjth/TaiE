@@ -68,6 +68,9 @@ if __name__ == '__main__':
                             choices=['i', 'w', 'e', 'd', 'n'],
                             default='i',
                             help='Logging level.')
+    argparser.add_argument('-t', '--tag', 
+                            default='',
+                            help='The tag name of the running.')
     logger:Logger = Logger('MAIN')
     # 解析参数
     args:argparse.Namespace = argparser.parse_args()
